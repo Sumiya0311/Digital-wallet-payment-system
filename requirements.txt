@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+python-dotenv
+alembic
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt<4.1
+email-validator
+python-multipart
+qrcode[pil]
+reportlab
+apscheduler<4
+pytest
+httpx

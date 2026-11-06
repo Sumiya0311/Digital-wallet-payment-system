@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep the safe example file
+!.env.example
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated statements
+statements/
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+# Generated statements and reports
+statements/
+reports/
+*.pdf
+*.csv
+
+# Local databases and private files
+*.db
+*.sqlite3
+uploads/
